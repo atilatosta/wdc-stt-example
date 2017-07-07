@@ -10,7 +10,7 @@ namespace wdc_stt_example
     {
         static void Main(string[] args)
         {
-            ISpeechToTextService _speechToText = new SpeechToTextService("0c8dafce-3cf2-46d8-9116-408e35a35fe2", "MaiEL4fS1zlJ");
+            ISpeechToTextService _speechToText = new SpeechToTextService("<username>", "<password>");
 
             using (FileStream fs = File.OpenRead("test-audio.wav"))
             {
